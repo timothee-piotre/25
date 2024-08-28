@@ -77,8 +77,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    if (registerForm) {
-        registerForm.addEventListener('submit', (event) => {
+    if (register-Form) {
+        register-Form.addEventListener('submit', (event) => {
             event.preventDefault();
             const username = document.getElementById('username').value;
             const email = document.getElementById('email').value;
