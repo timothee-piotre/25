@@ -1,7 +1,7 @@
 // routes/groupRoutes.js
 const express = require('express');
-const { createGroup, joinGroup } = require('../controllers/groupController');
-const { protect } = require('../middleware/authMiddleware');
+const { createGroup, joinGroup } = require('controllers/groupController');
+const { protect } = require('middleware/authMiddleware');
 
 const router = express.Router();
 
