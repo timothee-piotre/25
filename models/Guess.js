@@ -1,8 +1,8 @@
 // models/Guess.js
 const { DataTypes } = require('sequelize');
-const { sequelize } = require('../config/db');
-const Photo = require('./Photo');
-const User = require('./User');
+const { sequelize } = require('config/db');
+const Photo = require('Photo');
+const User = require('User');
 
 const Guess = sequelize.define('Guess', {
     photoId: {
