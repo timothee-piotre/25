@@ -1,8 +1,8 @@
 // models/Photo.js
 const { DataTypes } = require('sequelize');
-const { sequelize } = require('../config/db');
-const User = require('./User');
-const Group = require('./Group');
+const { sequelize } = require('config/db');
+const User = require('User');
+const Group = require('Group');
 
 const Photo = sequelize.define('Photo', {
     uploaderId: {
