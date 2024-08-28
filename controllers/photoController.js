@@ -1,5 +1,5 @@
 // controllers/photoController.js
-const Photo = require('../models/Photo');
+const Photo = require('models/Photo');
 
 exports.uploadPhoto = async (req, res) => {
     const { filePath, isAnonymous } = req.body;
